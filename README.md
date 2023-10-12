@@ -6,7 +6,7 @@
 
 ## Семинары
 
-- Урок 1. Ввод-Вывод, операторы ветвления [(Презентация)](https://gbcdn.mrgcdn.ru/uploads/asset/4930953/attachment/d82b5c9437fe83c67401681b4ab00c6c.pdf)
+- Урок 1. Ввод-Вывод, операторы ветвления [(Презентация](https://gbcdn.mrgcdn.ru/uploads/asset/4930953/attachment/d82b5c9437fe83c67401681b4ab00c6c.pdf)
 
 ## Домашние работы
 
