@@ -7,10 +7,10 @@
 
 
 # решение строками
-n = str(385916)
+n = "385916"
 
 l = int(n[0]) + int(n[1]) + int(n[2])
-r = int(n[3]) + int(n[4]) + int(n[5])
+r = int(n[-1]) + int(n[-2]) + int(n[-3])
 
 if l == r:
     print("yes")
