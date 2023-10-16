@@ -16,7 +16,11 @@ p = 27
 s = 12
 p = 27
 
-for i in range(s+1):
+# for i in range(s+1):
+#     if i*(s-i) == p:
+#         print(i, s-i)
+#         break
+
+for i in range(s//2+1):
     if i*(s-i) == p:
         print(i, s-i)
-        break
