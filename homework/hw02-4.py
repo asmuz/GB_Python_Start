@@ -10,17 +10,24 @@
 [1, 5, 3, 4, 1, 7, 8 , 15 , 1 ] => [3, 5] так как здесь есть числа от 3 до 5 и эта последовательность длиннее чем от 7 до 8
 """
 
-nums = [1, 5, 2, 3, 4, 1, 7, 8, 15, 1]
+nums = [1, 5, 3, 4, 1, 7, 8, 15, 1]
 
+search = min(nums)
+mx = max(nums)
+max_sequence = []
+sequence = []
 
-curr = 1
-count = 0
-for j in range(len(nums)):
+while search <= mx:
     for i in nums:
-        if i == curr:
-            count += 1
-            curr += 1
+        if i == search:
+            sequence.append(i)
+            search += 1
             break
+    else:
+        if len(sequence) > len(max_sequence):
+            max_sequence = sequence
+            sequence = []
+        search += 1
 
-
-print(f"i = {i}, count = {count}, curr = {curr}")
+print(f"Максимальная последовательность от {
+      min(max_sequence)} до {max(max_sequence)}")
