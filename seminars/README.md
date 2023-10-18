@@ -39,6 +39,8 @@ Output: 6
 Input: 2016  
 Output: YES
 
+---
+
 ## Семинар №2. Циклы (for, while)
 
 ### [Презентация семинара №2](https://gbcdn.mrgcdn.ru/uploads/asset/4930992/attachment/4031c5d21a9bd876a43d8e448cfc490b.pdf)

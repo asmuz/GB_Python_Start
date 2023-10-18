@@ -29,6 +29,8 @@
 a, b, c = 3, 2, 4 -> yes  
 a, b, c = 3, 2, 1 -> no
 
+---
+
 ## Семинар 2
 
 ### [Задача 1](https://github.com/asmuz/GB_Python_Start/blob/main/homework/hw02-1.py)
