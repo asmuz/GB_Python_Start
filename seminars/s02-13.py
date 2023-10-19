@@ -17,7 +17,7 @@ Output: 2
 """
 # n = int(input("Количество рассматриваемых дней: "))
 
-t = [-20, 30, -40, 4, 7, 50, 10, -10, 3, 4, 8, 5, 5, 5, 4]
+t = [-20, 30, 3, 4, 8, 5, 5, 5, 4, -40, 4, 7, 50, 10, -10]
 count = 0
 max_days = 0
 flag = False
@@ -25,7 +25,9 @@ flag = False
 for i in range(len(t)):
     if t[i] > 0:
         if flag:
-            count+=1
+            count += 1
+            if count > max_days:    # если последовательность заканчивается положительным числом
+                max_days = count
         else:
             flag = True
             count = 1
@@ -34,7 +36,5 @@ for i in range(len(t)):
         if count > max_days:
             max_days = count
 
-if count > max_days:    # если последовательность заканчивается положительным числом
-    max_days = count
 
 print(f"Самая длинная оттепель была {max_days} дней")

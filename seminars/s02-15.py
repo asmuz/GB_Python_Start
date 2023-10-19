@@ -11,10 +11,9 @@ Input: 5 -> 5 1 6 5 9
 Output: 1 9
 
 """
-arbuz = 5, 1, 6, 5, 9
+arbuz = (5, 1, 6, 5, 9)
 mn = arbuz[0]
 mx = mn
-
 for i in range(len(arbuz)):
     if arbuz[i] > mx:
         mx = arbuz[i]
