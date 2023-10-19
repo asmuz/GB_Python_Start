@@ -18,11 +18,11 @@ dif = 0
 min_dif = max(list_1)
 number = 0
 
-for i in list_1:
-    # dif = k - i
+for i in list_1:            # перебираем список
+    # находим "разницу" между искомым числом и числом из списка
     dif = abs(i - k)
-    if dif <= min_dif:
-        min_dif = dif
-        number = i
+    if dif <= min_dif:      # если такущая разница минимальна
+        min_dif = dif       # запоминаем её
+        number = i          # а так же само число
 
 print(number)
